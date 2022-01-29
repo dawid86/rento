@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-01-29T05:37:15.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="zBc6jDPzR5oZzM2h-yUF" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-29T06:20:11.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="duwSc7vEou65WhQhq2Yf" version="15.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="User&#xa;(renter)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="870" as="geometry" />
+          <mxGeometry x="70" y="80" width="100" height="2820" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="90" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="App&#xa;Auth form" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="890" as="geometry" />
+          <mxGeometry x="230" y="80" width="100" height="2820" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="280" as="geometry" />
@@ -33,59 +36,31 @@
             <mxPoint x="240" y="200" as="sourcePoint" />
             <mxPoint x="178" y="227" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="345" y="230" />
+              <mxPoint x="270" y="232" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-1" value="MNO Auth&#xa;service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="80" width="100" height="890" as="geometry" />
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-1">
-          <mxGeometry x="45" y="80" width="10" height="440" as="geometry" />
+          <mxGeometry x="820" y="80" width="100" height="2830" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-4" value="Auth options" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="150" width="1360" height="1260" as="geometry" />
+          <mxGeometry x="50" y="150" width="1360" height="2430" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-5" value="phone number" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-4">
-          <mxGeometry x="20" width="1340" height="910" as="geometry" />
+          <mxGeometry x="20" width="1340" height="1960" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="Zf3G7hdso3-D3wc9qhFH-5" vertex="1">
-          <mxGeometry x="95" y="20" width="10" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="type in phone number" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="Zf3G7hdso3-D3wc9qhFH-5" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-16" value="User ticks consent" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
           <mxGeometry x="0.0303" relative="1" as="geometry">
-            <mxPoint x="105" y="30" as="sourcePoint" />
-            <mxPoint x="270" y="30" as="targetPoint" />
+            <mxPoint x="60" y="110.32" as="sourcePoint" />
+            <mxPoint x="200" y="110" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-16" value="User ticks consent" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.067;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-17" value="User clicks &quot;join&quot;" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
           <mxGeometry x="0.0303" relative="1" as="geometry">
-            <mxPoint x="105" y="110.32" as="sourcePoint" />
-            <mxPoint x="275.6700000000001" y="109.99999999999994" as="targetPoint" />
+            <mxPoint x="60" y="140.31999999999994" as="sourcePoint" />
+            <mxPoint x="200" y="140" as="targetPoint" />
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-17" value="User clicks &quot;join&quot;" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.067;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
-          <mxGeometry x="0.0303" relative="1" as="geometry">
-            <mxPoint x="105" y="140.31999999999994" as="sourcePoint" />
-            <mxPoint x="275.6700000000001" y="140" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-20" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1060" y="220" as="sourcePoint" />
-            <mxPoint x="1060" y="251" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1109" y="220" />
-              <mxPoint x="1109" y="251" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-21" value="check sourceIP" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="25" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-40" value="/authorize&#xa;login_hint: 4860220xxxx" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.067;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.024;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
@@ -95,94 +70,182 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-45" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1070" y="110" as="sourcePoint" />
-            <mxPoint x="1070" y="141" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1119" y="110" />
-              <mxPoint x="1119" y="141" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-46" value="user input=phone number" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="25" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-47" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1120" y="310" as="sourcePoint" />
-            <mxPoint x="1120" y="341" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1169" y="310" />
-              <mxPoint x="1169" y="341" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-48" value="pick MNO auth service" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-47">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="25" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-19" value="/authorize&#xa;scope:mc_vm_match&#xa;login_hint:4860220xxxx" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
-          <mxGeometry x="0.0303" relative="1" as="geometry">
-            <mxPoint x="1090" y="470" as="sourcePoint" />
-            <mxPoint x="1230" y="470" as="targetPoint" />
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="1090" y="470" />
-              <mxPoint x="1140" y="470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-29" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="180" as="sourcePoint" />
-            <mxPoint x="760" y="260" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="769" y="180" />
-              <mxPoint x="769" y="211" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-30" value="seek for token" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="25" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-49" value="Account creation" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-5">
-          <mxGeometry x="50" y="370" width="1010" height="500" as="geometry" />
+          <mxGeometry x="50" y="370" width="1010" height="1350" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-50" value="Account exists" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-49">
-          <mxGeometry x="20" width="990" height="260" as="geometry" />
+          <mxGeometry x="20" width="990" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-51" value="No account" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-49">
-          <mxGeometry x="20" y="260" width="990" height="120" as="geometry" />
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-57" value="New refresh token" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-50">
+          <mxGeometry x="245" y="80" width="615" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="Zf3G7hdso3-D3wc9qhFH-52" value="Lane 3" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-49">
-          <mxGeometry x="20" y="380" width="990" height="120" as="geometry" />
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-58" value="Refresh token found" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-57">
+          <mxGeometry x="20" width="595" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="Zf3G7hdso3-D3wc9qhFH-5" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return code" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="Zf3G7hdso3-D3wc9qhFH-58" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1110" y="530" as="targetPoint" />
-            <mxPoint x="1260" y="530" as="sourcePoint" />
+            <mxPoint x="125" y="20" as="targetPoint" />
+            <mxPoint x="285" y="20" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-64" value="return JSON" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.57" y="140" as="targetPoint" />
+            <mxPoint x="289.57" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-63" value="/userInfo&#xa;acces token: r345y24y" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.067;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.024;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-58">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="129.57" y="120" as="sourcePoint" />
+            <mxPoint x="290.00000000000006" y="120.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-59" value="Request new token" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-57">
+          <mxGeometry x="20" y="230" width="595" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-51" value="No account&#xa;(MNO authentication)" style="swimlane;startSize=20;horizontal=0;fontSize=9;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-49">
+          <mxGeometry x="20" y="450" width="990" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-51">
+          <mxGeometry x="725" y="20" width="10" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-68" value="redirect to MNO auth service&#xa;(MNO authentication)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.34;entryY=0.913;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390.0000000000001" y="40.13999999999987" as="targetPoint" />
+            <mxPoint x="551.6" y="40" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-20" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735" y="130" as="sourcePoint" />
+            <mxPoint x="735" y="161" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="784" y="130" />
+              <mxPoint x="784" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-21" value="check sourceIP" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-69" value="redirect to seamless MNO auth with sessionID" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="195" as="targetPoint" />
+            <mxPoint x="724.9999999999999" y="194.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-71" value="MNO Network based Auth" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fontSize=9;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-51">
+          <mxGeometry x="170" y="180" width="590" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-72" value="SourceIP=MNO network" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-71">
+          <mxGeometry x="20" width="570" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-75" value="redirect to MNO auth service with sessionID and token" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="105" as="targetPoint" />
+            <mxPoint x="530" y="105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-83" value="sessionID + token" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-72">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="200" y="150" as="sourcePoint" />
+            <mxPoint x="530" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="250" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-73" value="SoureIP is not MNO network" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-71">
+          <mxGeometry x="20" y="210" width="570" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-78" value="redirect to SMS OTP input form" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="30.5" as="targetPoint" />
+            <mxPoint x="530" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-87" value="Send SMS OTP to device" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-73" target="Zf3G7hdso3-D3wc9qhFH-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="70.5" as="targetPoint" />
+            <mxPoint x="530" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-89" value="redirect to MNO auth service" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-73">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="200" y="169.99999999999977" as="sourcePoint" />
+            <mxPoint x="530" y="169.99999999999977" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="250" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-90" value="code" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="190.50000000000023" as="targetPoint" />
+            <mxPoint x="535" y="189.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-92" value="code" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-51" target="Zf3G7hdso3-D3wc9qhFH-91">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="395" y="679" as="sourcePoint" />
+            <mxPoint x="725" y="679" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="445" y="679" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-94" value="/token + code" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-51">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="565" y="700" as="sourcePoint" />
+            <mxPoint x="725" y="700.6699999999996" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="615" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-95" value="tokens" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="731" as="targetPoint" />
+            <mxPoint x="725" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-96" value="/userInfo + tokens" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-51">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="565" y="760" as="sourcePoint" />
+            <mxPoint x="725" y="760.6699999999996" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="615" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-97" value="JSON (match successful)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="801" as="targetPoint" />
+            <mxPoint x="725" y="800" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-6" value="email" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-4">
-          <mxGeometry x="20" y="910" width="1340" height="90" as="geometry" />
+          <mxGeometry x="20" y="1960" width="1340" height="210" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-10" value="nickname" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-4">
-          <mxGeometry x="20" y="1000" width="1340" height="130" as="geometry" />
+          <mxGeometry x="20" y="2170" width="1340" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-7" value="just click" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-4">
-          <mxGeometry x="20" y="1130" width="1340" height="130" as="geometry" />
+          <mxGeometry x="20" y="2300" width="1340" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-22" value="App&#xa;Front-end" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="80" width="100" height="890" as="geometry" />
+          <mxGeometry x="470" y="80" width="100" height="2830" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-23" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-22">
-          <mxGeometry x="45" y="80" width="10" height="550" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="1930" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-26" value="Validate input" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.067;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.024;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-22" source="3nuBFxr9cyL0pnOWT2aG-6">
           <mxGeometry x="0.0303" relative="1" as="geometry">
@@ -221,11 +284,57 @@
             <mxPoint x="25" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-65" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="680" as="sourcePoint" />
+            <mxPoint x="55" y="711" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="104" y="680" />
+              <mxPoint x="104" y="711" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-66" value="display content in app" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-82" value="handle redirect" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="1121" as="targetPoint" />
+            <mxPoint x="45" y="1120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-70" value="/networkAuth + sessionID" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-22">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="-60" y="1140" as="sourcePoint" />
+            <mxPoint x="390" y="1140" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-60" y="1140" />
+              <mxPoint x="-10" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-84" value="display form" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-63" y="1330" as="targetPoint" />
+            <mxPoint x="50" y="1330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-88" value="redirect to MNO&#xa;auth service" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.057;entryY=0.794;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-22">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="-65.57" y="1430.4599999999998" as="sourcePoint" />
+            <mxPoint x="44.999999999999886" y="1430" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-38" value="App&#xa;Back-end" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="80" width="100" height="890" as="geometry" />
+          <mxGeometry x="650" y="80" width="100" height="2830" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-39" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
-          <mxGeometry x="45" y="230" width="10" height="420" as="geometry" />
+          <mxGeometry x="45" y="230" width="10" height="720" as="geometry" />
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-27" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
           <mxGeometry relative="1" as="geometry">
@@ -253,6 +362,143 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zf3G7hdso3-D3wc9qhFH-56" value="seek for refresh token" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-61" value="/token&#xa;code: awetga23gq" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.067;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.024;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="-120" y="580" as="sourcePoint" />
+            <mxPoint x="40.430000000000064" y="580.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-62" value="return access token" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="600" as="targetPoint" />
+            <mxPoint x="40" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-19" value="/authorize&#xa;scope:mc_vm_match&#xa;login_hint:4860220xxxx" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="-120" y="1000" as="sourcePoint" />
+            <mxPoint x="210" y="1000" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-120" y="1000" />
+              <mxPoint x="-70" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-77" value="code" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="1240.5" as="targetPoint" />
+            <mxPoint x="215" y="1240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-91" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry x="45" y="1540" width="10" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-99" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1710" as="sourcePoint" />
+            <mxPoint x="55" y="1741.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="104" y="1710" />
+              <mxPoint x="104" y="1741" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-100" value="create account / refresh token" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-105" value="return code" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="1830" as="targetPoint" />
+            <mxPoint x="40" y="1830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-106" value="return JSON" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-115.43000000000006" y="1950" as="targetPoint" />
+            <mxPoint x="44.569999999999936" y="1950" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-107" value="/userInfo&#xa;acces token: r345y24y" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.067;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.024;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="-115.43000000000006" y="1930" as="sourcePoint" />
+            <mxPoint x="45" y="1930.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-108" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-125" y="1970" as="sourcePoint" />
+            <mxPoint x="-125" y="2001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-76" y="1970" />
+              <mxPoint x="-76" y="2001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-109" value="display content in app" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-110" value="/token&#xa;code: awetga23gq" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.067;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.024;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="-120" y="1870" as="sourcePoint" />
+            <mxPoint x="40.430000000000064" y="1870.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-111" value="return access token" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="1890" as="targetPoint" />
+            <mxPoint x="40" y="1890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-67" value="redirect to MNO auth service&#xa;(MNO authentication)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" target="Zf3G7hdso3-D3wc9qhFH-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="870" as="targetPoint" />
+            <mxPoint x="690" y="872" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="type in phone number" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.016;exitY=0.066;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-4" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="175" y="180" as="sourcePoint" />
+            <mxPoint x="340" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-79" value="Webview" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="100" height="2830" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-81" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-79">
+          <mxGeometry x="45" y="1105" width="10" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-76" value="sessionID + token" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-79">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="55" y="1200" as="sourcePoint" />
+            <mxPoint x="162" y="1200" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-85" value="" style="endArrow=classic;html=1;" edge="1" parent="Zf3G7hdso3-D3wc9qhFH-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1360" as="sourcePoint" />
+            <mxPoint x="55" y="1391" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="104" y="1360" />
+              <mxPoint x="104" y="1391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf3G7hdso3-D3wc9qhFH-86" value="input SMS OTP" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Zf3G7hdso3-D3wc9qhFH-85">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="25" as="offset" />
           </mxGeometry>
